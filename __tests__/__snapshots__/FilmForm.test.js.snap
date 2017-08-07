@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Film  Form 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#ddd",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 60,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 18,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        Name of film
+      </Text>
+      <TextInput
+        autoCorrect={false}
+        onChangeText={[Function]}
+        placeholder="Big bang teory"
+        secureTextEntry={undefined}
+        style={
+          Object {
+            "color": "#000",
+            "flex": 2,
+            "fontSize": 18,
+            "lineHeight": 23,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+        value={undefined}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#ddd",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 60,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 18,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        Number of seasons
+      </Text>
+      <TextInput
+        autoCorrect={false}
+        onChangeText={[Function]}
+        placeholder="4"
+        secureTextEntry={undefined}
+        style={
+          Object {
+            "color": "#000",
+            "flex": 2,
+            "fontSize": 18,
+            "lineHeight": 23,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+        value="undefined"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#ddd",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "padding": 5,
+          "position": "relative",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 60,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "fontSize": 18,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        Number of series per season
+      </Text>
+      <TextInput
+        autoCorrect={false}
+        onChangeText={[Function]}
+        placeholder="10"
+        secureTextEntry={undefined}
+        style={
+          Object {
+            "color": "#000",
+            "flex": 2,
+            "fontSize": 18,
+            "lineHeight": 23,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+        value="undefined"
+      />
+    </View>
+  </View>
+</View>
+`;

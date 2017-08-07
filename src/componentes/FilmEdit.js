@@ -8,7 +8,7 @@ import FilmForm from './FilmForm';
 import { filmUpdate, filmSave, filmDelete, formClosed } from '../actions';
 import { Card, CardSection, Button, Confirm } from './common';
 
-class FilmEdit extends Component {
+export class FilmEdit extends Component {
     state = {showModal: false};
 
     componentWillMount() {

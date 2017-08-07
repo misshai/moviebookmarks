@@ -5,7 +5,7 @@ import { filmCreate } from '../actions';
 import { Card, CardSection, Button,DismissKeyboardHOC } from './common';
 import FilmForm from './FilmForm';
 
-class FilmCreate extends Component {
+export class FilmCreate extends Component {
     onButtonPress() {
         const { name, numberOfSeasons, numberOfSeries } = this.props;
         Keyboard.dismiss();
@@ -35,6 +35,4 @@ const mapStateToProps = (state) => {
     return {name, numberOfSeries, numberOfSeasons};
 };
 
-export default connect(mapStateToProps, {
-    filmCreate
-})(FilmCreate);
+export default connect(mapStateToProps, {filmCreate})(FilmCreate);

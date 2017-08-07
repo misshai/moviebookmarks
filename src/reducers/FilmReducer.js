@@ -1,6 +1,5 @@
 import {
-    FILMS_FETCH_SUCCESS,
-    FILM_SAVE_SUCCESS
+    FILMS_FETCH_SUCCESS
 
 } from '../actions/types';
 

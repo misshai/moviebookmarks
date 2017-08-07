@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { filmUpdate } from '../actions';
 import { CardSection, Input } from './common';
 
-class FilmForm extends Component {
+export class FilmForm extends Component {
     render() {
         return (
             <View>

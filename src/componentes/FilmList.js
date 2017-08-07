@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { filmsFetch } from '../actions';
 import ListItem from './ListItem';
 
-class FilmList extends Component {
+export class FilmList extends Component {
     componentWillMount() {
         this.props.filmsFetch();
 
